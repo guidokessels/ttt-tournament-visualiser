@@ -1,7 +1,7 @@
 import React, { PropsWithChildren } from "react";
 import { TournamentGame } from "./TournamentGame";
 import { Tournament } from "./types";
-import appstyles from "./App.module.css";
+// import appstyles from "./App.module.css";
 import styles from "./TournamentRound.module.css";
 
 export const TournamentRound = ({ children }: PropsWithChildren<{}>) => {
