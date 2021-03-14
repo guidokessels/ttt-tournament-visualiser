@@ -1,0 +1,32 @@
+.TournamentGameRow {
+  margin: 6px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--box-bg-color);
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid var(--box-border-color);
+}
+
+.TournamentGamePoints,
+.TournamentGamePlayer {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.TournamentGamePoints {
+  border-radius: 0 8px 8px 0;
+  background-color: var(--points-bg-color);
+  width: 40px;
+  justify-content: center;
+}
+
+.TournameGameWinner .TournamentGamePoints {
+  background-color: var(--points-bg-color-winner);
+  font-weight: bold;
+}
+
+.TournameGameWinner .TournamentGamePlayer {
+  font-weight: bold;
+}

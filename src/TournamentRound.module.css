@@ -1,0 +1,11 @@
+.TournamentBracket {
+  display: flex;
+  justify-content: stretch;
+  flex: 1;
+}
+
+.TournamentRound {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

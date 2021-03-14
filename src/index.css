@@ -1,13 +1,7 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* @TODO: Make these configurable via the UI */
+  --box-bg-color: #58595e;
+  --box-border-color: #272a33;
+  --points-bg-color: #787a80;
+  --points-bg-color-winner: #ff7324;
 }

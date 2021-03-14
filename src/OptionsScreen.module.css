@@ -1,0 +1,17 @@
+.Screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.WIP {
+  font-style: italic;
+  font-size: 0.8em;
+}

@@ -1,0 +1,71 @@
+.TournamentGame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.TournamentGameFlipped {
+  flex-direction: row-reverse;
+}
+
+.TournamentGamePlayers {
+  flex: 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.TournamentGameFlipped .TournamentGameResultsSpacer {
+  transform: scaleX(-1);
+}
+
+.TournamentGameResultsSpacer {
+  display: flex;
+  flex-direction: column;
+  min-width: 40px;
+  --line-thickness: 4px;
+}
+
+.TournamentGameResultsSpacerDown {
+  justify-content: flex-end;
+}
+
+.TournamentGameResultsSpacerUp {
+  justify-content: flex-start;
+}
+
+.TournamentGameResultsSpacerDownStart,
+.TournamentGameResultsSpacerDownEnd,
+.TournamentGameResultsSpacerUpStart,
+.TournamentGameResultsSpacerUpEnd {
+  height: 25%;
+  width: calc(50% + (var(--line-thickness) / 2));
+  border: var(--line-thickness) solid var(--box-bg-color);
+}
+
+.TournamentGameResultsSpacerDownStart {
+  border-left: 0;
+  border-bottom: 0;
+  justify-self: flex-end;
+  border-top-right-radius: var(--line-thickness);
+}
+.TournamentGameResultsSpacerDownEnd {
+  border-top: 0;
+  border-right: 0;
+  align-self: flex-end;
+  justify-self: flex-end;
+  border-bottom-width: calc(var(--line-thickness) / 2);
+}
+.TournamentGameResultsSpacerUpStart {
+  border-right: 0;
+  border-bottom: 0;
+  align-self: flex-end;
+  justify-self: flex-start;
+  border-top-width: calc(var(--line-thickness) / 2);
+}
+.TournamentGameResultsSpacerUpEnd {
+  border-top: 0;
+  border-left: 0;
+  justify-self: flex-start;
+  border-bottom-right-radius: var(--line-thickness);
+}
